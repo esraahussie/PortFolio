@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esraa Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <!-- شريط التنقل للشاشات الكبيرة -->
+  <nav id="desktop-nav">
+    <div class="nav-brand">
+      <div class="logo-dot"></div>
+      <span>Esraa</span>
+    </div>
+    <div class="nav-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- شريط التنقل للجوال -->
+  <nav id="mobile-nav">
+    <div class="nav-brand">
+      <div class="logo-dot"></div>
+      <span>Esraa</span>
+    </div>
+    <button id="menu-btn">
+      <span class="material-icons">menu</span>
+    </button>
+  </nav>
+
+  <!-- القائمة الجانبية للجوال -->
+  <div id="mobile-menu" class="mobile-menu-hidden">
+    <div class="menu-header">
+      <h3>Esraa</h3>
+      <p>Flutter Developer</p>
+    </div>
+    <div class="menu-links">
+      <a href="#home" class="menu-link">Home</a>
+      <a href="#about" class="menu-link">About</a>
+      <a href="#skills" class="menu-link">Skills</a>
+      <a href="#projects" class="menu-link">Projects</a>
+      <a href="#certifications" class="menu-link">Certifications</a>
+      <a href="#contact" class="menu-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- الأقسام الرئيسية -->
+  <main>
+    <!-- قسم البطل -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="assets/images/profile.jpg" alt="Esraa Hussien" />
+        </div>
+        <div class="hero-text">
+          <h1 class="gradient-text">Hi, I'm Esraa Hussien</h1>
+          <h2 class="gradient-text-secondary">Software Engineer</h2>
+          <div class="hero-buttons">
+            <button class="discover-btn">Discover</button>
+            <button class="contact-btn">Contact Me</button>
+            <button class="cv-btn">My CV</button>
+          </div>
+          <div class="social-icons">
+            <a
+              href="mailto:ehussien143@gmail.com"
+              class="social-icon"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/esraa-hussien/"
+              class="social-icon"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/esraahussie"
+              class="social-icon"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/esraa.hussien.41393"
+              class="social-icon"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم عني -->
+    <section id="about" class="section">
+      <div class="section-title">
+        <div class="title-decoration"></div>
+        <h2>Hi there, I'm Esraa</h2>
+      </div>
+      <p class="section-description">
+        I'm a 3rd-year Computers and Artificial Intelligence student at Cairo
+        University. I'm passionate about building beautiful and efficient
+        applications that deliver real value to users. I enjoy the full journey
+        of development — from idea to design, coding, and launching.
+      </p>
+      <div class="capabilities-grid">
+        <div class="capability-card">
+          <div class="capability-icon">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h3>Flutter Development</h3>
+          <p>
+            Cross-platform apps with Clean Architecture, BLoC, Firebase & API
+            integration.
+          </p>
+        </div>
+
+        <div class="capability-card">
+          <div class="capability-icon">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <h3>Backend Development</h3>
+          <p>
+            Backends with .NET, MVC, RESTful APIs, databases for scalable apps.
+          </p>
+        </div>
+
+        <div class="capability-card">
+          <div class="capability-icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3>Frontend Development</h3>
+          <p>Responsive UIs with HTML, CSS, JavaScript & Bootstrap.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="section">
+      <div class="section-title">
+        <div class="title-decoration"></div>
+        <h2>Skills & Experience</h2>
+      </div>
+      <p class="skills-intro">
+        As a 3rd-year Computer Science and Artificial Intelligence student at
+        Cairo University, I am passionate about software development and always
+        eager to expand my knowledge. I have worked on multiple projects using
+        different languages and technologies, which helped me strengthen both my
+        technical and problem-solving skills.
+      </p>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-icon">
+            <span class="material-icons">code</span>
+          </div>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Dart (Flutter)</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">
+            <span class="material-icons">build</span>
+          </div>
+          <h3>Frameworks & Tools</h3>
+          <ul>
+            <li>Flutter</li>
+            <li>Qt</li>
+            <li>PyQt</li>
+            <li>Bootstrap</li>
+            <li>Git/GitHub</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">
+            <span class="material-icons">stars</span>
+          </div>
+          <h3>Other Skills</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>Data Structures & Algorithms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="section">
+      <div class="section-title">
+        <div class="title-decoration"></div>
+        <h2>My Projects</h2>
+      </div>
+      <p class="section-description">
+        Some of the Flutter apps and web projects I've built, showcasing my
+        skills in mobile and web development.
+      </p>
+      <div class="projects-container">
+        <!-- سيتم إضافة المشاريع ديناميكيًا باستخدام JavaScript -->
+      </div>
+    </section>
+
+    <!-- قسم الشهادات -->
+    <section id="certifications" class="section">
+      <div class="section-title">
+        <div class="title-decoration"></div>
+        <h2>Certifications</h2>
+      </div>
+      <p class="certifications-description">My professional certifications and achievements in the field of software
+        development.
+      </p>
+      <div class="certifications-grid">
+        <!-- سيتم إضافة الشهادات ديناميكيًا باستخدام JavaScript -->
+      </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="section">
+      <div class="section-title">
+        <div class="title-decoration"></div>
+        <h2>Contact</h2>
+      </div>
+      <p class="section-description">
+        If you are interested in my projects or would like to collaborate on
+        ideas, feel free to reach out.
+      </p>
+      <div class="contact-container">
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="https://formspree.io/f/meolvzwv"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+        <!-- popup alert hidden by default -->
+        <div id="popup-overlay" class="hidden">
+          <div class="popup-card">
+            <p id="form-message"></p>
+            <button id="close-popup" class="close-btn">Close</button>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <h3>Reach me directly</h3>
+          <div class="contact-links">
+            <a
+              href="mailto:ehussien143@gmail.com"
+              class="contact-link"
+              target="_blank"
+            >
+              <i class="fa-solid fa-envelope"></i>
+              ehussien143@gmail.com
+            </a>
+            <a
+              href="https://www.facebook.com/esraa.hussien.41393"
+              class="contact-link"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+              Facebook
+            </a>
+            <a
+              href="https://www.linkedin.com/in/esraa-hussien/"
+              class="contact-link"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/esraahussie"
+              class="contact-link"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+            <a
+              href="https://www.instagram.com/esraaa_7ussien?igsh=N3FubzY3dDQzN3Nv"
+              class="contact-link"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
