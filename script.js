@@ -410,6 +410,13 @@ function initCardHoverEffects() {
     });
   });
 }
+// دالة للتنقل للسكتورز بالSmooth Scroll
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 
 // ====================== أزرار البطل ======================
 function initHeroButtons() {
@@ -432,6 +439,10 @@ function initHeroButtons() {
     });
   }
 }
+
+// تفعيل الأزرار بعد تحميل الصفحة
+window.addEventListener('DOMContentLoaded', initHeroButtons);
+
 
 // ====================== التمرير لقسم معين ======================
 function scrollToSection(sectionId) {
