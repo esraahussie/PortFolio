@@ -433,7 +433,7 @@ function initHeroButtons() {
   if (cvBtn) {
     cvBtn.addEventListener('click', () => {
       window.open(
-        'https://drive.google.com/file/d/1NoPp1F07ZPFVYHOUyNIXPNwpJ16sMrel/view?usp=drivesdk',
+        'https://drive.google.com/file/d/1Qv6e3IviriAbrT8H5IoLzkiUI6OVDsPR/view?usp=drivesdk',
         '_blank'
       );
     });
